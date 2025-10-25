@@ -117,5 +117,29 @@
       </footer>
 
     </div>
+
+     <script>
+      // Force color changes with JavaScript after page loads
+      $(document).ready(function() {
+        // Header ribbon
+        $('header .ribbon-outer, header .ribbon-outer *, header .ribbon-inner, header .ribbon-inner *').css({
+          'background': '#2d6a4f',
+          'background-color': '#2d6a4f',
+          'background-image': 'none',
+          'border-color': '#2d6a4f'
+        });
+        
+        // Footer ribbon
+        $('footer .ribbon-outer, footer .ribbon-outer *, footer .ribbon-inner, footer .ribbon-inner *').css({
+          'background': '#1b4332',
+          'background-color': '#1b4332',
+          'background-image': 'none',
+          'border-color': '#1b4332'
+        });
+        
+        // Make sure text stays visible
+        $('header h1, header h2, footer p, footer a').css('color', '#fff');
+      });
+    </script>
   </body>
 </html>
