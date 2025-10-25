@@ -16,7 +16,7 @@ Reggie is on the left, and Dandelion is on the right!
 ![Picture of Reggie and Dandelion](../dogs.jpg)
 
 ## Marvin, Mau, and Baker
-Mavin is the left greay tabby, Mau is the right greay tabby, and Baker is the orange tabby!
+Mavin is the left gray tabby, Mau is the right gray tabby, and Baker is the orange tabby!
 ![Picture of Marvin Mau and Baker](../cats.jpg)
 
 If you want to know more, I'd love to have a conversation with anyone interested, and you are welcome to reach out via email to Cailey.Cassity-Ness@ucf.edu.
