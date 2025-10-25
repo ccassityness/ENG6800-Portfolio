@@ -1,4 +1,4 @@
-/* ===== Top Nav (Yellow Bar) ===== */
+/* Top navigation bar */
 header .top-nav {
   background-color: #f4d03f; /* yellow */
   text-align: center;
@@ -26,23 +26,22 @@ header .top-nav ul li a:hover {
   text-decoration: underline;
 }
 
-/* ===== Blue Banner ===== */
+/* Banner with page title */
 #banner {
   position: relative;
   text-align: center;
   padding: 2em 1em;
-  background-color: #0366d6; /* blue banner */
+  background-color: #0366d6; /* blue */
+  color: #fff;
 }
 
 #banner .page-title {
-  color: #ffffff;
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
-  font-size: 2.4em;
-  font-weight: 700;
-  margin: 0.2em auto 0.5em auto;
+  margin: 0;
+  font-size: 2em;
+  font-weight: bold;
 }
 
-/* ===== GitHub Button Right-Aligned ===== */
+/* GitHub button aligned to right */
 #banner .button.fork {
   position: absolute;
   top: 50%;
@@ -52,12 +51,10 @@ header .top-nav ul li a:hover {
   color: #0366d6;
   border-radius: 4px;
   padding: 0.4em 0.8em;
-  font-size: 0.9em;
   font-weight: bold;
   text-decoration: none;
 }
 
 #banner .button.fork:hover {
   background-color: #f0f0f0;
-  text-decoration: none;
 }
