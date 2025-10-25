@@ -23,87 +23,48 @@
 {% include head-custom.html %}
 
     <style>
-  /* Green Theme Override - Force all ribbon elements */
-  header .ribbon-outer,
-  header .ribbon-outer .ribbon-inner,
-  header .ribbon-outer span,
-  div.ribbon-outer,
-  div.ribbon-inner {
-    background: #2d6a4f !important;
-    background-color: #2d6a4f !important;
-  }
-  
-  /* Header ribbon tails */
-  header span.left-tail,
-  header span.right-tail,
-  header .ribbon-outer span.left-tail,
-  header .ribbon-outer span.right-tail {
-    background: #2d6a4f !important;
-    background-color: #2d6a4f !important;
-    border-color: #2d6a4f !important;
-  }
-  
-  body {
-    background-color: #d8f3dc !important;
-  }
-  
-  .shell {
-    background-color: #d8f3dc !important;
-  }
-  
-  #main_content {
-    background-color: #ffffff !important;
-  }
-  
-  /* Footer ribbon */
-  footer .ribbon-outer,
-  footer .ribbon-outer .ribbon-inner,
-  footer .ribbon-outer span,
-  footer span.ribbon-outer,
-  footer span.ribbon-inner {
-    background: #1b4332 !important;
-    background-color: #1b4332 !important;
-  }
-  
-  /* Footer ribbon tails */
-  footer span.left-tail,
-  footer span.right-tail,
-  footer .ribbon-outer span.left-tail,
-  footer .ribbon-outer span.right-tail {
-    background: #1b4332 !important;
-    background-color: #1b4332 !important;
-    border-color: #1b4332 !important;
-  }
-  
-  /* Fix links in content */
-  #main_content a {
-    color: #2d6a4f !important;
-  }
-  
-  #main_content a:hover {
-    color: #1b4332 !important;
-    text-decoration: underline !important;
-  }
-  
-  #main_content h1, 
-  #main_content h2, 
-  #main_content h3 {
-    color: #1b4332 !important;
-  }
-</style>
+      /* Green Theme Override */
+      body {
+        background-color: #d8f3dc !important;
+      }
+      
+      .shell {
+        background-color: #d8f3dc !important;
+      }
+      
+      #main_content {
+        background-color: #ffffff !important;
+      }
+      
+      /* Fix links in content */
+      #main_content a {
+        color: #2d6a4f !important;
+      }
+      
+      #main_content a:hover {
+        color: #1b4332 !important;
+        text-decoration: underline !important;
+      }
+      
+      #main_content h1, 
+      #main_content h2, 
+      #main_content h3 {
+        color: #1b4332 !important;
+      }
+    </style>
   </head>
 
   <body>
     <div class="shell">
 
       <header>
-        <div class="ribbon-outer">
-          <div class="ribbon-inner">
+        <div class="ribbon-outer" style="background-color: #2d6a4f !important;">
+          <div class="ribbon-inner" style="background-color: #2d6a4f !important;">
             <h1>{{ site.title | default: site.github.repository_name }}</h1>
             <h2>{{ site.description | default: site.github.project_tagline }}</h2>
           </div>
-          <span class="left-tail"></span>
-          <span class="right-tail"></span>
+          <span class="left-tail" style="background-color: #2d6a4f !important; border-color: #2d6a4f !important;"></span>
+          <span class="right-tail" style="background-color: #2d6a4f !important; border-color: #2d6a4f !important;"></span>
         </div>
       </header>
 
@@ -125,31 +86,34 @@
 
 
       <section id="main_content">
-       <!-- Navigation -->
-<div id="main-nav" style="text-align: center; padding: 1.5em 0; margin-bottom: 2em;">
-  <div style="max-width: 900px; margin-left: auto; margin-right: auto;">
-    <a href="{{ '/' | relative_url }}" style="color: #1b4332; text-decoration: none; font-weight: bold; font-size: 1.1em; padding: 0.75em 1.5em; background-color: #95d5b2; border: none; border-radius: 6px; display: inline-block; margin: 0.5em; min-width: 180px;">Home</a>
-    <a href="{{ '/about-me' | relative_url }}" style="color: #1b4332; text-decoration: none; font-weight: bold; font-size: 1.1em; padding: 0.75em 1.5em; background-color: #95d5b2; border: none; border-radius: 6px; display: inline-block; margin: 0.5em; min-width: 180px;">About Me</a>
-    <a href="{{ '/teaching-and-projects' | relative_url }}" style="color: #1b4332; text-decoration: none; font-weight: bold; font-size: 1.1em; padding: 0.75em 1.5em; background-color: #95d5b2; border: none; border-radius: 6px; display: inline-block; margin: 0.5em; min-width: 180px;">Teaching & Projects</a>
-    <a href="{{ '/curriculum-vitae' | relative_url }}" style="color: #1b4332; text-decoration: none; font-weight: bold; font-size: 1.1em; padding: 0.75em 1.5em; background-color: #95d5b2; border: none; border-radius: 6px; display: inline-block; margin: 0.5em; min-width: 180px;">Curriculum Vitae</a>
-  </div>
-</div>
+        <!-- Navigation -->
+        <div id="main-nav" style="text-align: center; padding: 1.5em 0; margin-bottom: 2em;">
+          <div style="max-width: 900px; margin-left: auto; margin-right: auto;">
+            <a href="{{ '/' | relative_url }}" style="color: #1b4332; text-decoration: none; font-weight: bold; font-size: 1.1em; padding: 0.75em 1.5em; background-color: #95d5b2; border: none; border-radius: 6px; display: inline-block; margin: 0.5em; min-width: 180px;">Home</a>
+            <a href="{{ '/about-me' | relative_url }}" style="color: #1b4332; text-decoration: none; font-weight: bold; font-size: 1.1em; padding: 0.75em 1.5em; background-color: #95d5b2; border: none; border-radius: 6px; display: inline-block; margin: 0.5em; min-width: 180px;">About Me</a>
+            <a href="{{ '/teaching-and-projects' | relative_url }}" style="color: #1b4332; text-decoration: none; font-weight: bold; font-size: 1.1em; padding: 0.75em 1.5em; background-color: #95d5b2; border: none; border-radius: 6px; display: inline-block; margin: 0.5em; min-width: 180px;">Teaching & Projects</a>
+            <a href="{{ '/curriculum-vitae' | relative_url }}" style="color: #1b4332; text-decoration: none; font-weight: bold; font-size: 1.1em; padding: 0.75em 1.5em; background-color: #95d5b2; border: none; border-radius: 6px; display: inline-block; margin: 0.5em; min-width: 180px;">Curriculum Vitae</a>
+          </div>
+        </div>
 
         {{ content }}
       </section>
 
       <footer>
-        <span class="ribbon-outer">
-          <span class="ribbon-inner">
+        <span class="ribbon-outer" style="background-color: #1b4332 !important;">
+          <span class="ribbon-inner" style="background-color: #1b4332 !important;">
             {% if site.github.is_project_page %}
-              <p>This project by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a> can be found on <a href="{{ site.github.repository_url }}">GitHub</a></p>
+              <p>this project by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a> can be found on <a href="{{ site.github.repository_url }}">GitHub</a></p>
             {% endif %}
             {% if site.github.is_user_page %}
               <p>Projects by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a> can be found on <a href="{{ site.github.repository_url }}">GitHub</a></p>
             {% endif %}
           </span>
-          <span class="left-tail"></span>
-          <span class="right-tail"></span>
+          <span class="left-tail" style="background-color: #1b4332 !important; border-color: #1b4332 !important;"></span>
+          <span class="right-tail" style="background-color: #1b4332 !important; border-color: #1b4332 !important;"></span>
+        </span>
+        <p>Generated with <a href="https://pages.github.com">GitHub Pages</a> using Merlot</p>
+        <span class="octocat"></span>
       </footer>
 
     </div>
