@@ -41,10 +41,10 @@ underlying academic success through the study of literature
 
 # Teaching Philosophy
 My goal as an educator of research and writing is to help students master their communication and research skills, along with allowing them the opportunity to make their own thoughtful connections.
-My intended classroom and curriculum are designed to be student-centered, promoting
-collaboration and opportunity for open discourse. Students leaving my courses will understand the need for effective written and oral communication both in and beyond the classroom. 
-Students have their own unique backgrounds and skills, and it is my priority to adapt my
-classroom materials to fit the needs of my students to ensure their growth. Students are given opportunities to assess the assignments and lessons they are given to allow me to continually improve my own lessons. While I can only correct and enhance my own teaching skills through practice in my own classroom, students should have the opportunity to comment on the quality of their learning as they are experiencing it. 
+
+My intended classroom and curriculum are designed to be student-centered, promoting collaboration and opportunity for open discourse. Students leaving my courses will understand the need for effective written and oral communication both in and beyond the classroom. 
+
+Students have their own unique backgrounds and skills, and it is my priority to adapt my classroom materials to fit the needs of my students to ensure their growth. Students are given opportunities to assess the assignments and lessons they are given to allow me to continually improve my own lessons. While I can only correct and enhance my own teaching skills through practice in my own classroom, students should have the opportunity to comment on the quality of their learning as they are experiencing it. 
 
 # Projects
 
