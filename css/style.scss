@@ -22,3 +22,28 @@
     text-decoration: underline;
   }
 }
+#sidebar {
+  background: #f7f7f7;
+  border-right: 1px solid #ccc;
+  padding: 1em;
+  position: fixed;
+  top: 120px; /* adjust depending on header height */
+  left: 0;
+  width: 180px;
+  height: 100%;
+}
+
+#sidebar .button {
+  display: block;
+  margin: 0.5em 0;
+  padding: 0.5em;
+  text-align: center;
+  background: #eaeaea;
+  border-radius: 4px;
+  color: #333;
+  text-decoration: none;
+}
+
+#sidebar .button:hover {
+  background: #ddd;
+}
