@@ -1,36 +1,40 @@
 ---
 ---
-@import "{{ site.theme }}";
-/* Navigation */
-#main-nav {
-  text-align: center;
-  padding: 1.5em 0;
-  margin-bottom: 2em;
-  border-bottom: 2px solid #ddd;
+
+/* Overall color scheme */
+body {
+  background-color: #D8D8F6 !important; /* Lavender background */
 }
 
-#main-nav ul {
-  list-style: none !important;
-  margin: 0 !important;
-  padding: 0 !important;
+.shell {
+  background-color: #D8D8F6 !important;
 }
 
-#main-nav ul li {
-  display: inline-block !important;
-  margin: 0 0.5em !important;
-  list-style-type: none !important;
+/* Header ribbon - dark green */
+.ribbon-outer .ribbon-inner {
+  background-color: #143109 !important;
 }
 
-#main-nav ul li a {
-  color: #2879d0;
-  text-decoration: none;
-  font-weight: bold;
-  font-size: 1.1em;
-  padding: 0.5em 1em;
-  background-color: #f0f0f0;
-  border: 1px solid #ddd;
-  border-radius: 4px;
-  display: inline-block;
+.ribbon-outer .left-tail,
+.ribbon-outer .right-tail {
+  border-color: #143109 transparent transparent transparent !important;
+}
+
+/* Main content area - sage green */
+#main_content {
+  background-color: #AAAE7F !important;
+  padding: 2em !important;
+  border-radius: 8px;
+}
+
+/* Footer ribbon - eminence purple */
+footer .ribbon-outer .ribbon-inner {
+  background-color: #7E3F8F !important;
+}
+
+footer .ribbon-outer .left-tail,
+footer .ribbon-outer .right-tail {
+  border-color: transparent transparent #7E3F8F transparent !important;
 }
 
 #main-nav ul li a:hover {
