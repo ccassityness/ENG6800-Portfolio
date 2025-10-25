@@ -38,6 +38,10 @@
 
     <div id="banner">
       <span id="logo"></span>
+
+      <!-- Dynamic page title -->
+      <h1 class="page-title">{{ page.title | default: site.title }}</h1>
+
       <a href="{{ site.github.repository_url }}" class="button fork"><strong>View On GitHub</strong></a>
 
       {% if site.show_downloads %}
@@ -57,10 +61,10 @@
       </section>
 
       <aside id="sidebar">
-        <a href="https://ccassityness.github.io/ENG6800-Portfolio/" class="button">Home</a>
-        <a href="https://ccassityness.github.io/ENG6800-Portfolio/about-me" class="button">About Me</a>
-        <a href="https://ccassityness.github.io/ENG6800-Portfolio/teaching-and-projects" class="button">Teaching & Projects</a>
-        <a href="https://ccassityness.github.io/ENG6800-Portfolio/curriculum-vitae/" class="button">Curriculum Vitae</a>
+        <a href="{{ '/' | relative_url }}" class="button">Home</a>
+        <a href="{{ '/about-me' | relative_url }}" class="button">About Me</a>
+        <a href="{{ '/teaching-and-projects' | relative_url }}" class="button">Teaching & Projects</a>
+        <a href="{{ '/curriculum-vitae' | relative_url }}" class="button">Curriculum Vitae</a>
       </aside>
 
       <footer>
@@ -72,6 +76,3 @@
     </div>
   </body>
 </html>
-
-
-
