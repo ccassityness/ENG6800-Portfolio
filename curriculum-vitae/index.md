@@ -4,7 +4,7 @@ title: Curriculum Vitae
 ---
 # Curriculum Vitae
 ## Cailey Cassity-Ness
-## 1st Year Texts & Technology PhD Student
+### 1st Year Texts & Technology PhD Student
 
 ## Education
 - Ph.D. (expected 2029), Texts & Technology, University of Central Florida
