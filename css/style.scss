@@ -48,13 +48,41 @@
   background: #ddd;
 }
 
-/* Make banner page titles visible and styled */
-#banner .page-title {
-  color: #ffffff; /* bright white for contrast */
-  text-shadow: 2px 2px 4px rgba(0,0,0,0.5); /* soft shadow for readability */
-  font-size: 2.2em;
-  font-weight: 600;
-  margin-top: 0.5em;
-  margin-bottom: 0.5em;
+
+
+/* ===== Banner Title and GitHub Button Styling ===== */
+
+/* Center and style the page title in the blue banner */
+#banner {
+  position: relative;
   text-align: center;
+  padding: 2em 1em;
+}
+
+#banner .page-title {
+  color: #ffffff; /* white text for contrast */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+  font-size: 2.4em;
+  font-weight: 700;
+  margin: 0.2em auto 0.5em auto;
+}
+
+/* Align the "View on GitHub" button to the right side of the banner */
+#banner .button.fork {
+  position: absolute;
+  top: 50%;
+  right: 1.5em;
+  transform: translateY(-50%);
+  background-color: #fff;
+  color: #0366d6;
+  border-radius: 4px;
+  padding: 0.4em 0.8em;
+  font-size: 0.9em;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+#banner .button.fork:hover {
+  background-color: #f0f0f0;
+  text-decoration: none;
 }

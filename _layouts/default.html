@@ -36,12 +36,14 @@
       </nav>
     </header>
 
+    <!-- BLUE BANNER SECTION -->
     <div id="banner">
       <span id="logo"></span>
 
-      <!-- Dynamic page title -->
+      <!-- Page title centered in the banner -->
       <h1 class="page-title">{{ page.title | default: site.title }}</h1>
 
+      <!-- GitHub button aligned to right -->
       <a href="{{ site.github.repository_url }}" class="button fork"><strong>View On GitHub</strong></a>
 
       {% if site.show_downloads %}
