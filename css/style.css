@@ -18,7 +18,7 @@ header .ribbon-outer .right-tail {
 
 /* Header Text Colors */
 header h1, header h2 {
-  color: #fff !important;
+  color: #ffffff !important;
 }
 
 /* Body Background */
@@ -53,7 +53,7 @@ footer .ribbon-inner a {
 }
 
 #main_content a:hover {
-  color: #ffffff !important;
+  color: #1b4332 !important;
 }
 
 /* Headings in Content */
