@@ -1,4 +1,8 @@
+---
+---
+
 @import "{{ site.theme }}";
+
 /* Top navigation bar */
 header .top-nav {
   background-color: #f4d03f; /* yellow */
@@ -61,9 +65,7 @@ header .top-nav ul li a:hover {
 }
 
 /* Hide the sidebar navigation */
-.wrapper > nav,
-aside,
-.wrapper aside nav {
+.wrapper nav {
   display: none !important;
 }
 
