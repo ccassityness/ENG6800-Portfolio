@@ -23,32 +23,24 @@
 {% include head-custom.html %}
 
     <style>
-  /* Green Theme Override */
+  /* Green Theme Override - Force all ribbon elements */
   header .ribbon-outer,
-  header .ribbon-outer .ribbon-inner {
+  header .ribbon-outer .ribbon-inner,
+  header .ribbon-outer span,
+  div.ribbon-outer,
+  div.ribbon-inner {
     background: #2d6a4f !important;
     background-color: #2d6a4f !important;
   }
   
-  header .ribbon-outer .left-tail,
-  header .ribbon-outer .right-tail {
-    background: transparent !important;
-  }
-  
-  header .ribbon-outer .left-tail {
-    border-color: transparent #2d6a4f #2d6a4f transparent !important;
-    border-top-color: #2d6a4f !important;
-    border-right-color: #2d6a4f !important;
-    border-bottom-color: #2d6a4f !important;
-    border-left-color: transparent !important;
-  }
-  
-  header .ribbon-outer .right-tail {
-    border-color: #2d6a4f transparent #2d6a4f transparent !important;
-    border-top-color: #2d6a4f !important;
-    border-right-color: transparent !important;
-    border-bottom-color: #2d6a4f !important;
-    border-left-color: #2d6a4f !important;
+  /* Header ribbon tails */
+  header span.left-tail,
+  header span.right-tail,
+  header .ribbon-outer span.left-tail,
+  header .ribbon-outer span.right-tail {
+    background: #2d6a4f !important;
+    background-color: #2d6a4f !important;
+    border-color: #2d6a4f !important;
   }
   
   body {
@@ -63,35 +55,34 @@
     background-color: #ffffff !important;
   }
   
+  /* Footer ribbon */
   footer .ribbon-outer,
-  footer .ribbon-outer .ribbon-inner {
+  footer .ribbon-outer .ribbon-inner,
+  footer .ribbon-outer span,
+  footer span.ribbon-outer,
+  footer span.ribbon-inner {
     background: #1b4332 !important;
     background-color: #1b4332 !important;
   }
   
-  footer .ribbon-outer .left-tail,
-  footer .ribbon-outer .right-tail {
-    background: transparent !important;
+  /* Footer ribbon tails */
+  footer span.left-tail,
+  footer span.right-tail,
+  footer .ribbon-outer span.left-tail,
+  footer .ribbon-outer span.right-tail {
+    background: #1b4332 !important;
+    background-color: #1b4332 !important;
+    border-color: #1b4332 !important;
   }
   
-  footer .ribbon-outer .left-tail {
-    border-color: #1b4332 transparent transparent #1b4332 !important;
-    border-top-color: #1b4332 !important;
-    border-right-color: transparent !important;
-    border-bottom-color: transparent !important;
-    border-left-color: #1b4332 !important;
-  }
-  
-  footer .ribbon-outer .right-tail {
-    border-color: transparent transparent transparent #1b4332 !important;
-    border-top-color: transparent !important;
-    border-right-color: transparent !important;
-    border-bottom-color: transparent !important;
-    border-left-color: #1b4332 !important;
-  }
-  
+  /* Fix links in content */
   #main_content a {
+    color: #2d6a4f !important;
+  }
+  
+  #main_content a:hover {
     color: #1b4332 !important;
+    text-decoration: underline !important;
   }
   
   #main_content h1, 
@@ -134,15 +125,15 @@
 
 
       <section id="main_content">
-        <!-- Navigation -->
-        <div id="main-nav" style="text-align: center; padding: 1.5em 0; margin-bottom: 2em;">
-          <div style="max-width: 900px; margin-left: auto; margin-right: auto;">
-            <a href="{{ '/' | relative_url }}" style="color: #fff; text-decoration: none; font-weight: bold; font-size: 1.1em; padding: 0.75em 1.5em; background-color: #2d6a4f; border: none; border-radius: 6px; display: inline-block; margin: 0.5em; min-width: 180px;">Home</a>
-            <a href="{{ '/about-me' | relative_url }}" style="color: #fff; text-decoration: none; font-weight: bold; font-size: 1.1em; padding: 0.75em 1.5em; background-color: #2d6a4f; border: none; border-radius: 6px; display: inline-block; margin: 0.5em; min-width: 180px;">About Me</a>
-            <a href="{{ '/teaching-and-projects' | relative_url }}" style="color: #fff; text-decoration: none; font-weight: bold; font-size: 1.1em; padding: 0.75em 1.5em; background-color: #2d6a4f; border: none; border-radius: 6px; display: inline-block; margin: 0.5em; min-width: 180px;">Teaching & Projects</a>
-            <a href="{{ '/curriculum-vitae' | relative_url }}" style="color: #fff; text-decoration: none; font-weight: bold; font-size: 1.1em; padding: 0.75em 1.5em; background-color: #2d6a4f; border: none; border-radius: 6px; display: inline-block; margin: 0.5em; min-width: 180px;">Curriculum Vitae</a>
-          </div>
-        </div>
+       <!-- Navigation -->
+<div id="main-nav" style="text-align: center; padding: 1.5em 0; margin-bottom: 2em;">
+  <div style="max-width: 900px; margin-left: auto; margin-right: auto;">
+    <a href="{{ '/' | relative_url }}" style="color: #1b4332; text-decoration: none; font-weight: bold; font-size: 1.1em; padding: 0.75em 1.5em; background-color: #95d5b2; border: none; border-radius: 6px; display: inline-block; margin: 0.5em; min-width: 180px;">Home</a>
+    <a href="{{ '/about-me' | relative_url }}" style="color: #1b4332; text-decoration: none; font-weight: bold; font-size: 1.1em; padding: 0.75em 1.5em; background-color: #95d5b2; border: none; border-radius: 6px; display: inline-block; margin: 0.5em; min-width: 180px;">About Me</a>
+    <a href="{{ '/teaching-and-projects' | relative_url }}" style="color: #1b4332; text-decoration: none; font-weight: bold; font-size: 1.1em; padding: 0.75em 1.5em; background-color: #95d5b2; border: none; border-radius: 6px; display: inline-block; margin: 0.5em; min-width: 180px;">Teaching & Projects</a>
+    <a href="{{ '/curriculum-vitae' | relative_url }}" style="color: #1b4332; text-decoration: none; font-weight: bold; font-size: 1.1em; padding: 0.75em 1.5em; background-color: #95d5b2; border: none; border-radius: 6px; display: inline-block; margin: 0.5em; min-width: 180px;">Curriculum Vitae</a>
+  </div>
+</div>
 
         {{ content }}
       </section>
