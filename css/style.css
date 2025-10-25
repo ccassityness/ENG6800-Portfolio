@@ -3,11 +3,6 @@
 
 @import "{{ site.theme }}";
 
----
----
-
-@import "{{ site.theme }}";
-
 /* ========================================
    MERLOT THEME COLOR CUSTOMIZATION
    ======================================== */
@@ -15,6 +10,7 @@
 /* Header Ribbon Color */
 header .ribbon-outer .ribbon-inner {
   background-color: #2d6a4f !important; /* Dark green */
+}
 header .ribbon-outer .left-tail,
 header .ribbon-outer .right-tail {
   border-top-color: #2d6a4f !important; 
@@ -37,12 +33,12 @@ body {
 
 /* Footer Ribbon Color */
 footer .ribbon-outer .ribbon-inner {
-  background-color: #004851 !important; /* Dark teal */
+  background-color: #1b4332 !important; /* Darker green */
 }
 
 footer .ribbon-outer .left-tail,
 footer .ribbon-outer .right-tail {
-  border-bottom-color: #004851 !important;
+  border-bottom-color: #1b4332 !important;
 }
 
 /* Footer Text */
@@ -57,12 +53,12 @@ footer .ribbon-inner a {
 }
 
 #main_content a:hover {
-  color: #004851 !important;
+  color: #1b4332 !important;
 }
 
 /* Headings in Content */
 #main_content h1, 
 #main_content h2, 
 #main_content h3 {
-  color: #004851 !important;
+  color: #1b4332 !important;
 }
