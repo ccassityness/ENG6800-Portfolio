@@ -1,43 +1,95 @@
 ---
 ---
 
-/* Overall color scheme */
+@import "{{ site.theme }}";
+
+/* Overall color scheme - Lavender background */
 body {
-  background-color: #D8D8F6 !important; /* Lavender background */
+  background-color: #D8D8F6 !important;
 }
 
 .shell {
   background-color: #D8D8F6 !important;
 }
 
-/* Header ribbon - dark green */
-.ribbon-outer .ribbon-inner {
+/* Header ribbon - Pakistan Green */
+header .ribbon-outer {
   background-color: #143109 !important;
 }
 
-.ribbon-outer .left-tail,
-.ribbon-outer .right-tail {
-  border-color: #143109 transparent transparent transparent !important;
+header .ribbon-outer .ribbon-inner {
+  background-color: #143109 !important;
+  color: #fff !important;
 }
 
-/* Main content area - sage green */
+header .ribbon-outer .ribbon-inner h1,
+header .ribbon-outer .ribbon-inner h2 {
+  color: #fff !important;
+}
+
+header .ribbon-outer .left-tail {
+  border-color: #143109 #143109 transparent transparent !important;
+  background-color: transparent !important;
+}
+
+header .ribbon-outer .right-tail {
+  border-color: transparent #143109 transparent transparent !important;
+  background-color: transparent !important;
+}
+
+/* Main content area - Sage background */
 #main_content {
   background-color: #AAAE7F !important;
   padding: 2em !important;
-  border-radius: 8px;
+  border-radius: 8px !important;
+  color: #000 !important;
 }
 
-/* Footer ribbon - eminence purple */
-footer .ribbon-outer .ribbon-inner {
+section#main_content {
+  background-color: #AAAE7F !important;
+}
+
+/* Downloads section if present */
+#downloads,
+#no-downloads {
+  background-color: #D8D8F6 !important;
+}
+
+.banner-fix {
+  background-color: #D8D8F6 !important;
+}
+
+/* Footer ribbon - Eminence Purple */
+footer {
+  background-color: #D8D8F6 !important;
+}
+
+footer .ribbon-outer {
   background-color: #7E3F8F !important;
 }
 
-footer .ribbon-outer .left-tail,
+footer .ribbon-outer .ribbon-inner {
+  background-color: #7E3F8F !important;
+  color: #fff !important;
+}
+
+footer .ribbon-outer .ribbon-inner p,
+footer .ribbon-outer .ribbon-inner a {
+  color: #fff !important;
+}
+
+footer .ribbon-outer .left-tail {
+  border-color: transparent transparent #7E3F8F #7E3F8F !important;
+}
+
 footer .ribbon-outer .right-tail {
   border-color: transparent transparent #7E3F8F transparent !important;
 }
 
-#main-nav ul li a:hover {
-  background-color: #e0e0e0;
-  text-decoration: none;
+footer p {
+  color: #000 !important;
+}
+
+footer .octocat {
+  background-color: #D8D8F6 !important;
 }
