@@ -58,3 +58,16 @@ header .top-nav ul li a:hover {
 #banner .button.fork:hover {
   background-color: #f0f0f0;
 }
+
+/* Hide the sidebar navigation */
+.wrapper nav {
+  display: none;
+}
+
+/* Expand the main content to full width since there's no sidebar */
+.wrapper section {
+  width: 100%;
+  float: none;
+  margin: 0 auto;
+  max-width: 900px;
+}
