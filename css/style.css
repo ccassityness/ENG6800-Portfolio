@@ -3,50 +3,66 @@
 
 @import "{{ site.theme }}";
 
-header {
+---
+---
 
-    background: black;
+@import "{{ site.theme }}";
 
+/* ========================================
+   MERLOT THEME COLOR CUSTOMIZATION
+   ======================================== */
+
+/* Header Ribbon Color */
+header .ribbon-outer .ribbon-inner {
+  background-color: #2d6a4f !important; /* Dark green */
+header .ribbon-outer .left-tail,
+header .ribbon-outer .right-tail {
+  border-top-color: #2d6a4f !important; 
 }
 
-header a.button {
-
-    background: green
-
+/* Header Text Colors */
+header h1, header h2 {
+  color: #fff !important;
 }
 
-aside a.button {
-
-    background: darkgreen
-
+/* Body Background */
+body {
+  background-color: #f5f5f5 !important; /* Light gray */
 }
 
-#main-content h2:before {
-
-    color: lightgreen;
-
+/* Main Content Area Background */
+#main_content {
+  background-color: #ffffff !important; /* White */
 }
 
-#main-content h1:before {
-
-    color: lightgreen;
-
+/* Footer Ribbon Color */
+footer .ribbon-outer .ribbon-inner {
+  background-color: #004851 !important; /* Dark teal */
 }
 
-#main-content h3 {
+footer .ribbon-outer .left-tail,
+footer .ribbon-outer .right-tail {
+  border-bottom-color: #004851 !important;
+}
 
-    color: lightgreen;
+/* Footer Text */
+footer .ribbon-inner p,
+footer .ribbon-inner a {
+  color: #fff !important;
+}
 
-  }
+/* Link Colors in Content */
+#main_content a {
+  color: #2d6a4f !important;
+}
 
-  #main-content h4 {
+#main_content a:hover {
+  color: #004851 !important;
+}
 
-    color: lightgreen;
-
-  }
-
-  #main-content h6 {
-
-    color: lightgreen;
-
-  }
+/* Headings in Content */
+#main_content h1, 
+#main_content h2, 
+#main_content h3 {
+  color: #004851 !important;
+}
