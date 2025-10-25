@@ -1,3 +1,6 @@
+---
+---
+@import "{{ site.theme }}";
 /* Navigation */
 #main-nav {
   text-align: center;
