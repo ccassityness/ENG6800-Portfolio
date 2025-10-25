@@ -2,10 +2,8 @@
 layout: default
 title: Home
 ---
-# Welcome to my website!
+# Home!
 ![Picture of Cailey and spouse](cailey-and-andy.jpg)
-
-Picture of my spouse and me
 
 ## A Quick Intro
 My name is Cailey, and I am a first-year Ph.D. student in University of Central Florida's [Texts and Technology](https://cah.ucf.edu/textstech/) program. I currently have two roles in academia: Part-Time Faculty at Blinn College and Full-Time Staff at Rollins College. If you'd like to get to know me more, go to my [About Page](/ENG6800-Portfolio/about%20me). 
