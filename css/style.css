@@ -60,14 +60,22 @@ header .top-nav ul li a:hover {
 }
 
 /* Hide the sidebar navigation */
-.wrapper nav {
-  display: none;
+.wrapper > nav,
+aside,
+.wrapper aside nav {
+  display: none !important;
 }
 
 /* Expand the main content to full width since there's no sidebar */
 .wrapper section {
-  width: 100%;
-  float: none;
-  margin: 0 auto;
+  width: 100% !important;
+  float: none !important;
+  margin: 0 auto !important;
   max-width: 900px;
+  padding: 20px;
+}
+
+.wrapper {
+  width: 100% !important;
+  max-width: 100% !important;
 }
