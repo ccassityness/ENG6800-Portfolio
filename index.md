@@ -2,7 +2,7 @@
 layout: default
 title: Home
 ---
-# Home
+# Welcome to my website!
 ![Picture of Cailey and spouse](cailey-and-andy.jpg)
 
 ## A Quick Intro
