@@ -5,54 +5,65 @@ title: Teaching & Projects
 
 # Teaching Experience
 
+
 ## ENGL1301 Composition I
 
-### Course Description
+**Course Description**
 - Intensive study of and practice in writing processes, from invention and researching to drafting, revising, and editing, both individually and collaboratively. Emphasis on effective rhetorical choices, including audience, purpose, arrangement, and style. Focus on writing the academic essay as a vehicle for learning, communicating, and critical analysis.
 
-### Semesters Taught
+**Semesters Taught**
 - Fall 2022, Spring 2023, Fall 2023, Spring 2024, Fall 2024, Spring 2025, Summer I 2025, Summer II 2025, Fall 2025
 
 ## ENGL1302 Composition II
-### Course Description
+**Course Description**
 - Intensive study of and practice in the strategies and techniques for developing research-based expository and persuasive texts.
 Emphasis on effective and ethical rhetorical inquiry; teamwork; critical reading of verbal, visual, and multimedia texts; systematic
 evaluation, synthesis, and documentation of information sources; and critical thinking about evidence and conclusions. This reading
 and writing intensive prerequisite for sophomore English offerings further develops the analytical, thinking, and research skills
 underlying academic success through the study of literature
 
-### Semesters Taught
+**Semesters Taught**
 - Spring 2023, Spring 2024
 
 ## ENC1101 English Composition I
-### Course Description
+**Course Description**
 - This course introduces students to rhetorical concepts and audience-centered approaches to writing including composing processes, language conventions and style, and critical analysis and engagement with written texts and other forms of communication.
 
-### Semesters Taught
+**Semesters Taught**
 - Fall 2024, Spring 2025
 
 ## ENC1102 English Composition II
-### Course Description
+**Course Description**
 - Emphasis on style; use of library; reading and evaluating available sources; planning, writing, and documenting short research paper.
 
-### Semesters Taught
+**Semesters Taught**
 - Fall 2025, Spring 2025
 
 # Teaching Philosophy
-- STILL NEED TO PUT STUFF HERE CAILEY GET IT TOGETHER
+My goal as an educator of research and writing is to
+help students master their communication and research skills, along with allowing them the
+opportunity to make their own thoughtful connections.
+My intended classroom and curriculum are designed to be student-centered, promoting
+collaboration and opportunity for open discourse. . Students leaving my courses will understand the need for
+effective written and oral communication both in and beyond the classroom. Students have their own unique backgrounds and skills, and it is my priority to adapt my
+classroom materials to fit the needs of my students to ensure their growth. Students are given opportunities to assess the assignments
+and lessons they are given to allow me to continually improve my own lessons. While I can only
+correct and enhance my own teaching skills through practice in my own classroom, students
+should have the opportunity to comment on the quality of their learning as they are experiencing
+it. 
 
 # Projects
 
-### In-Progress
+## In-Progress
 
-Feminist Choose-Your-Own-Adventure Game
+**Feminist Choose-Your-Own-Adventure Game**
 - Creating a choose-your-own adventure game/novel using a feminist lens. 
 - Twine, Harlowe 
 
-### Complete
+## Complete
 
-2026 Rollins College Carnegie Foundation Community Engagement Reclassification
+**2026 Rollins College Carnegie Foundation Community Engagement Reclassification**
 - Served as co-lead for Rollins College's Community Engagement Reclassification with the Carnegie Foundation. Consisted of data collection, data analysis, writing, editing, and formatting.
 
-Kaneka North America LLC Accounting Department Onboarding Manual 
+**Kaneka North America LLC Accounting Department Onboarding Manual**
 - Created 107-page Onboarding Manual for Kaneka North America LLC Accounting Department to serve as onboarding training materials for newly hired employees.
