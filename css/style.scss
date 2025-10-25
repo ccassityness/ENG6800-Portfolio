@@ -1,73 +1,48 @@
-@import "{{ site.theme }}";.top-nav {
-  margin-top: 10px;
+/* ===== Top Nav (Yellow Bar) ===== */
+header .top-nav {
+  background-color: #f4d03f; /* yellow */
   text-align: center;
-
-  ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-  }
-
-  li {
-    display: inline-block;
-    margin: 0 10px;
-  }
-
-  a {
-    text-decoration: none;
-    color: #fff; // or whatever fits your theme
-  }
-
-  a:hover {
-    text-decoration: underline;
-  }
-}
-#sidebar {
-  background: #f7f7f7;
-  border-right: 1px solid #ccc;
-  padding: 1em;
-  position: fixed;
-  top: 120px; /* adjust depending on header height */
-  left: 0;
-  width: 180px;
-  height: 100%;
+  padding: 0.5em 0;
 }
 
-#sidebar .button {
-  display: block;
-  margin: 0.5em 0;
-  padding: 0.5em;
-  text-align: center;
-  background: #eaeaea;
-  border-radius: 4px;
-  color: #333;
+header .top-nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+header .top-nav ul li {
+  display: inline-block;
+  margin: 0 1em;
+}
+
+header .top-nav ul li a {
+  color: #000;
   text-decoration: none;
+  font-weight: bold;
 }
 
-#sidebar .button:hover {
-  background: #ddd;
+header .top-nav ul li a:hover {
+  text-decoration: underline;
 }
 
-
-
-/* ===== Banner Title and GitHub Button Styling ===== */
-
-/* Center and style the page title in the blue banner */
+/* ===== Blue Banner ===== */
 #banner {
   position: relative;
   text-align: center;
   padding: 2em 1em;
+  background-color: #0366d6; /* blue banner */
 }
 
 #banner .page-title {
-  color: #ffffff; /* white text for contrast */
+  color: #ffffff;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
   font-size: 2.4em;
   font-weight: 700;
   margin: 0.2em auto 0.5em auto;
 }
 
-/* Align the "View on GitHub" button to the right side of the banner */
+/* ===== GitHub Button Right-Aligned ===== */
 #banner .button.fork {
   position: absolute;
   top: 50%;
@@ -78,8 +53,8 @@
   border-radius: 4px;
   padding: 0.4em 0.8em;
   font-size: 0.9em;
-  text-decoration: none;
   font-weight: bold;
+  text-decoration: none;
 }
 
 #banner .button.fork:hover {

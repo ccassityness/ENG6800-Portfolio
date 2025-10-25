@@ -21,29 +21,30 @@
   </head>
 
   <body>
+    <!-- HEADER -->
     <header>
       <h1><a href="{{ '/' | relative_url }}">{{ site.title }}</a></h1>
       <p>{{ site.description }}</p>
 
+      <!-- YELLOW TOP NAV -->
       <nav class="top-nav">
         <ul>
-          {% for page in site.pages %}
-            {% if page.title %}
-              <li><a href="{{ page.url | relative_url }}">{{ page.title }}</a></li>
-            {% endif %}
-          {% endfor %}
+          <li><a href="{{ '/' | relative_url }}">Home</a></li>
+          <li><a href="{{ '/about-me' | relative_url }}">About Me</a></li>
+          <li><a href="{{ '/teaching-and-projects' | relative_url }}">Teaching & Projects</a></li>
+          <li><a href="{{ '/curriculum-vitae' | relative_url }}">Curriculum Vitae</a></li>
         </ul>
       </nav>
     </header>
 
-    <!-- BLUE BANNER SECTION -->
+    <!-- BLUE BANNER -->
     <div id="banner">
       <span id="logo"></span>
 
-      <!-- Page title centered in the banner -->
+      <!-- Page title centered -->
       <h1 class="page-title">{{ page.title | default: site.title }}</h1>
 
-      <!-- GitHub button aligned to right -->
+      <!-- GitHub button aligned to the right -->
       <a href="{{ site.github.repository_url }}" class="button fork"><strong>View On GitHub</strong></a>
 
       {% if site.show_downloads %}
@@ -57,17 +58,11 @@
       {% endif %}
     </div><!-- end banner -->
 
+    <!-- MAIN CONTENT -->
     <div class="wrapper">
       <section>
         {{ content }}
       </section>
-
-      <aside id="sidebar">
-        <a href="{{ '/' | relative_url }}" class="button">Home</a>
-        <a href="{{ '/about-me' | relative_url }}" class="button">About Me</a>
-        <a href="{{ '/teaching-and-projects' | relative_url }}" class="button">Teaching & Projects</a>
-        <a href="{{ '/curriculum-vitae' | relative_url }}" class="button">Curriculum Vitae</a>
-      </aside>
 
       <footer>
         {% if site.github.is_project_page %}
