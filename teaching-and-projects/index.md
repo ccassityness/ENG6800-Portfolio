@@ -12,7 +12,7 @@ title: Teaching & Projects
 - Intensive study of and practice in writing processes, from invention and researching to drafting, revising, and editing, both individually and collaboratively. Emphasis on effective rhetorical choices, including audience, purpose, arrangement, and style. Focus on writing the academic essay as a vehicle for learning, communicating, and critical analysis.
 
 **Semesters Taught**
-- Fall 2022, Spring 2023, Fall 2023, Spring 2024, Fall 2024, Spring 2025, Summer I 2025, Summer II 2025, Fall 2025
+- Fall 2022, Spring 2023, Fall 2023, Spring 2024, Fall 2024, Spring 2025, Summer I 2025, Summer II 2025, Fall 2025, Spring 2026 (Tentatively Scheduled)
 
 ## ENGL1302 Composition II
 **Course Description**
@@ -37,7 +37,7 @@ underlying academic success through the study of literature
 - Emphasis on style; use of library; reading and evaluating available sources; planning, writing, and documenting short research paper.
 
 **Semesters Taught**
-- Fall 2025, Spring 2025
+- Fall 2024, Spring 2025
 
 # Teaching Philosophy
 My goal as an educator of research and writing is to help students master their communication and research skills, along with allowing them the opportunity to make their own thoughtful connections.
