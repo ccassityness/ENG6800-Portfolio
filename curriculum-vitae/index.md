@@ -24,7 +24,7 @@ title: Curriculum Vitae
 - Full-Time Instructor, English, Blinn College, August 2023 - May 2024
 - Program Aide, Office of Admissions, Texas A&M University, October 2022 - March 2022
 - Part-Time Instructor, English, Blinn College, August 2022 - August 2023
-- Prospective Student Recruiter, Admissions and Enrollment Services, March 2022 - August 2022
+- Prospective Student Recruiter, Admissions and Enrollment Services, Blinn College, March 2022 - August 2022
 
 ## Creative Writing Publications
 - "Hope," poem published in *Mississippi Poetry Journal 2020 Contest Edition*, Summer 2020
